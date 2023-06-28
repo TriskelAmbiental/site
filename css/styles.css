@@ -185,7 +185,7 @@ address {
 
 ol,
 ul {
-  padding-left: 0rem;
+  padding-left: 2rem;
 }
 
 ol,
@@ -3037,19 +3037,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-info {
-  --bs-btn-color: #0dcaf0;
-  --bs-btn-border-color: #0dcaf0;
+  --bs-btn-color: #ffff;
+  --bs-btn-border-color: #ffff;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #0dcaf0;
-  --bs-btn-hover-border-color: #0dcaf0;
+  --bs-btn-hover-bg: #5d855c;
+  --bs-btn-hover-border-color: #5d855c;
   --bs-btn-focus-shadow-rgb: 13, 202, 240;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #0dcaf0;
-  --bs-btn-active-border-color: #0dcaf0;
+  --bs-btn-active-bg: #99cc66;
+  --bs-btn-active-border-color: #99cc66;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #0dcaf0;
+  --bs-btn-disabled-color: #ffff;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #0dcaf0;
+  --bs-btn-disabled-border-color: #fff;
   --bs-gradient: none;
 }
 
@@ -10922,7 +10922,7 @@ p {
   padding: 3rem 0;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -10987,7 +10987,7 @@ p {
   text-transform: uppercase;
 }
 #mainNav .navbar-brand img {
-  height: 3rem;
+  height: 4rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10999,7 +10999,7 @@ p {
   color: #336633;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 850px) {
   #mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -11012,7 +11012,7 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 6rem;
+    height: 8rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -11026,7 +11026,7 @@ p {
   }
   #mainNav.navbar-shrink .navbar-brand svg,
   #mainNav.navbar-shrink .navbar-brand img {
-    height: 3rem;
+    height: 4rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
@@ -11377,8 +11377,8 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/bg.jpg");
+  background-color: #336633;
+  /*background-image: url("../assets/img/bg.jpg");*/
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -11440,14 +11440,89 @@ section#contact form#contactForm :-ms-input-placeholder {
   justify-content: center;
   align-items: center;
 }
+@media (min-width: 300px) {
+  .center{
+  justify-content: left;
+  }
+}
+@media (min-width: 576px) {
+  .center{
+  justify-content: left;
+  }
+}
+@media (min-width: 600px) {
+  .center{
+  justify-content: center;
+  }
+}
+@media (min-width: 800px) {
+  .center{
+  justify-content: center;
+  }
+}
+@media (min-width: 992px) {
+  .center{
+  justify-content: center;
+  }
+}
 
+@media (min-width: 1200px) {
+  .center{
+  justify-content: center;
+  }
+}
+.text-muted{
+  color: #ffff !important;
+}
+.text-muted a{
+  color: #ffff !important;
+}
 
+@media (min-width: 300px) {
+  .text-muted-1{
+    font-size: 0.7rem;
+  }
+  .text-muted-2{
+    font-size: 0.5rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .text-muted-1{
+    font-size: 1rem;
+  }
+  .text-muted-2{
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 1000px) {
+    .text-muted-1{
+    font-size: 1.5rem;
+  }
+  .text-muted-2{
+    font-size: 1.2rem;
+  }
+}
+
+.footer-brand {
+  justify-content: center;
+  text-align: center;
+}
+.footer-brand:hover, .footer-brand:focus {
+  color:  rgba(0, 0, 0, 0.9);
+}
+
+@media (min-width: 992px) {
+  #contact .footer-brand img {
+    height: 3rem;
+  }
+}
 .footer {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-
 /**
  * go to top - (_layout.scss)
  * ------------------------------------------------------------------- 
