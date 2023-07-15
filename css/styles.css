@@ -11431,7 +11431,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #ced4da;
 }
 
-.contatos{
+.grids{
   display: grid;
   grid-template-columns: 50% 50%
 }
