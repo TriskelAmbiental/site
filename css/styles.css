@@ -11433,7 +11433,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .grids-about{
   display: grid;
-  grid-template-columns: 80% 20%
+  grid-template-columns: 75% 25%
 }
 
 .grids{
